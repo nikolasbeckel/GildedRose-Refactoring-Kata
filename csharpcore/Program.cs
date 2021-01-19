@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using csharpcore.Items;
 
 namespace csharpcore
 {
@@ -50,6 +51,7 @@ namespace csharpcore
                 }
                 Console.WriteLine("");
                 app.UpdateQuality();
+                ;
             }
         }
     }

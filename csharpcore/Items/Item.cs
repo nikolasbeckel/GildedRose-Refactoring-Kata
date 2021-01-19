@@ -1,8 +1,8 @@
-﻿namespace csharpcore
+﻿namespace csharpcore.Items
 {
     public class Item
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public int SellIn { get; set; }
         public int Quality { get; set; }
     }
